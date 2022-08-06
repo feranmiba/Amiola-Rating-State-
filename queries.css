@@ -1,0 +1,98 @@
+/* big tablet to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+  .spirit {
+    font-size: 25px;
+  }
+  .seat {
+    font-size: 15px;
+    margin-left: 30%;
+    margin-right: 35%;
+  }
+}
+/*small tablet to big tablet:from 768px to1023px*/
+@media only screen and (max-width: 1023px) {
+  .spirit {
+    font-size: 25px;
+  }
+  .seat {
+    font-size: 15px;
+    margin-left: 25%;
+    margin-right: 28%;
+  }
+}
+/*small phones to small tablets: from 481 to767px*/
+@media only screen and (max-width: 767px) {
+  .spirit {
+    font-size: 15px;
+  }
+  body {
+    width: 492px;
+  }
+  .seat {
+    font-size: 15px;
+    margin-left: 12%;
+    margin-right: 15%;
+  }
+  .close-modal {
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+    font-size: 2.5rem;
+  }
+  .pics {
+    margin-left: 5%;
+  }
+  .select {
+    margin-left: 5%;
+    font-size: 14px;
+    color: hsl(25, 97%, 53%);
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+/*Small phones: from 0 to480px*/
+@media only screen and (max-width: 480px) {
+  .spirit {
+    font-size: 15px;
+  }
+  body {
+    width: 352px;
+  }
+  .seat {
+    font-size: 12px;
+    margin-left: 5%;
+    margin-right: 8%;
+  }
+  .close-modal {
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+    font-size: 2.5rem;
+  }
+  .pics {
+    margin-left: 2%;
+  }
+  .select {
+    margin-left: 2%;
+    font-size: 12px;
+  }
+  .melt {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 80px;
+    padding-right: 70px;
+    width: 60px;
+  }
+  .two {
+    border-radius: 30mm;
+    font-size: 15px;
+    margin-right: 5%;
+  }
+  .touch {
+    font-size: 12px;
+  }
+}
